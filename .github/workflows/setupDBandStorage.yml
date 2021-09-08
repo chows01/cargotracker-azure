@@ -8,7 +8,7 @@ env:
     refJavaee: bce4e6ec57726d4bc7992b45e1ff6e459b02fb39
     azCliVersion: 2.23.0
     azureCredentials: ${{ secrets.AZURE_CREDENTIALS }}
-    location: eastus
+    location: westeurope
     resourceGroupForDB: wlsd-db-${{ github.run_id }}-${{ github.run_number }}
     resourceGroupForStorageAccount: wlsd-sa-${{ github.run_id }}-${{ github.run_number }}
     dbName: wlsdb${{ github.run_id }}${{ github.run_number }}
